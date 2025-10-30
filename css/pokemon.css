@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'PokemonFont';
+    src: url('../font/Pokemon-Classic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body, 
+button, 
+input, 
+select, 
+textarea, 
+.dropdown-menu, 
+.offcanvas-title,
+.card {
+    font-family: "PokemonFont", monospace !important;
+}
+#container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-grow: 1;
+
+}
+body{
+    font-family: "PokemonFont",monospace;
+}
+.mayus {
+    text-transform: uppercase;
+}
+
+.card img ,
+.card h5{
+    image-rendering: pixelated;
+    text-transform: capitalize;
+    
+}
+
+
+.header {
+    height: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-top: 40px;
+
+
+}
+.card {
+    vertical-align: top;
+    height: 450px;
+    overflow: hidden;
+    transition: height .5s;
+    width: 350px !important;
+    
+
+}
+
+.card:hover {
+    height: auto;
+}
+
+.boxcard {
+    width: fit-content;
+    height: fit-content;
+    -webkit-box-shadow: 17px 10px 48px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 17px 10px 48px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 17px 10px 48px -11px rgba(0, 0, 0, 0.75);
+}
+
+
+.contenido {
+    margin-top: 200px;
+}
+
+.container {
+    text-align: center;
+    font-family: "PokemonFont",monospace;
+}
+
+body {
+    background-image: url("../images/fondopokemon.jpg");
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll
+}
+
+.logo {
+    image-rendering: pixelated;
+    filter: drop-shadow(0 0 0.75rem #489fd19b);
+}
+
+.nombrecarrito {
+    padding-top: 10px;
+    align-content: center;
+}
+
+.borrarpkcart {
+    align-content: center;
+    margin-left: 100px;
+}
+
+.teamcart {
+    padding-top: 10px;
+    margin-left: 25%;
+    align-items: center;
+    align-content: center;
+}
+
+.urteam {
+    text-align: left;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FEC00E;
+    text-shadow: -1px 0 #2E4595, 0 1px #2E4595, 1px 0 #2E4595, 0 -1px #2E4595, -2px 2px 0 #2E4595, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+
+}
+
